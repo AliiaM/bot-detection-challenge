@@ -93,11 +93,11 @@
 - **Зависимости:** `requirements.txt`
 - **random_state=42** зафиксирован.
 - **Данные:** положить `train.csv`, `test.csv`, `events.csv.gz` в `data/`.
-- **Запуск:** `python 007_CV.py` → создаёт `submission.csv`.
+- **Запуск:** `python script.py` → создаёт `submission.csv`.
 
 ## Файлы
 
-- `007_CV.py` — весь пайплайн.
+- `script.py` — весь пайплайн.
 - `metric.py` — официальная метрика (из задания).
 - `requirements.txt` — зависимости.
 - `submission.csv` — итоговый файл.
